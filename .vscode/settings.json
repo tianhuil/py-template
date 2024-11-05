@@ -1,0 +1,24 @@
+{
+  // Common
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit",
+  },
+  // Python
+  "python.analysis.typeCheckingMode": "basic",
+  "files.exclude": {
+    "**/__pycache__": true
+  },
+  "python.testing.pytestArgs": ["tests"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.analysis.autoImportCompletions": true,
+  "ruff.fixAll": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+  },
+}
