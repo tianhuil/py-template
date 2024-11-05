@@ -16,7 +16,7 @@
   "python.analysis.autoImportCompletions": true,
   "ruff.fixAll": true,
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
+    "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.codeActionsOnSave": {
       "source.organizeImports": "explicit"
     },
